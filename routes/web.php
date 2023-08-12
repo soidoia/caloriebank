@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\PostController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +14,4 @@ use App\Http\Controllers\PostController;
 |
 */
 
-Route::get('/',[PostController::class, 'index']);
+Route::get('/',[UserController::class, 'index']);
